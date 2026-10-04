@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE46937E2E844F51008DF4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE46937D2E844F51008DF4DE /* Assets.xcassets */; };
+		BED31C9C2E799B3C008CD4FD /* UnifiedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C572E799B3C008CD4FD /* UnifiedCard.swift */; };
+		BED31C9D2E799B3C008CD4FD /* CategoryChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C582E799B3C008CD4FD /* CategoryChip.swift */; };
+		BED31C9E2E799B3C008CD4FD /* ProductUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C592E799B3C008CD4FD /* ProductUI.swift */; };
+		BED31CA12E799B3C008CD4FD /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C5D2E799B3C008CD4FD /* SearchBarView.swift */; };
+		BED31CA22E799B3C008CD4FD /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C5E2E799B3C008CD4FD /* RootView.swift */; };
+		BED31CA72E799B3C008CD4FD /* HeroBannerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C632E799B3C008CD4FD /* HeroBannerSection.swift */; };
+		BED31CA92E799B3C008CD4FD /* UnifiedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C652E799B3C008CD4FD /* UnifiedCardView.swift */; };
+		BED31CAA2E799B3C008CD4FD /* CardSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C662E799B3C008CD4FD /* CardSection.swift */; };
+		BED31CAC2E799B3C008CD4FD /* HeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C682E799B3C008CD4FD /* HeaderSection.swift */; };
+		BED31CAE2E799B3C008CD4FD /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C6A2E799B3C008CD4FD /* SectionHeader.swift */; };
+		BED31CB12E799B3C008CD4FD /* GetirShoppinApp_HomeScreenUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C6E2E799B3C008CD4FD /* GetirShoppinApp_HomeScreenUIApp.swift */; };
+		BED31CCD2E799B3C008CD4FD /* HomeScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C942E799B3C008CD4FD /* HomeScreens.swift */; };
+		BED31CD02E799B3C008CD4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED31C992E799B3C008CD4FD /* Assets.xcassets */; };
+		BED31CD12E799B3C008CD4FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED31C9B2E799B3C008CD4FD /* Preview Assets.xcassets */; };
+		BED31CD22E79A838008CD4FD /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED31C6C2E799B3C008CD4FD /* AppColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE46937D2E844F51008DF4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Downloads/GetirCloneApp-main 2/getirCloneApp/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		BEC4F99C2E7700230016982A /* GetirShoppinApp-HomeScreenUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GetirShoppinApp-HomeScreenUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED31C572E799B3C008CD4FD /* UnifiedCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnifiedCard.swift; sourceTree = "<group>"; };
+		BED31C582E799B3C008CD4FD /* CategoryChip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryChip.swift; sourceTree = "<group>"; };
+		BED31C592E799B3C008CD4FD /* ProductUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductUI.swift; sourceTree = "<group>"; };
+		BED31C5D2E799B3C008CD4FD /* SearchBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		BED31C5E2E799B3C008CD4FD /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BED31C632E799B3C008CD4FD /* HeroBannerSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroBannerSection.swift; sourceTree = "<group>"; };
+		BED31C652E799B3C008CD4FD /* UnifiedCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnifiedCardView.swift; sourceTree = "<group>"; };
+		BED31C662E799B3C008CD4FD /* CardSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardSection.swift; sourceTree = "<group>"; };
+		BED31C682E799B3C008CD4FD /* HeaderSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderSection.swift; sourceTree = "<group>"; };
+		BED31C6A2E799B3C008CD4FD /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		BED31C6C2E799B3C008CD4FD /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BED31C6E2E799B3C008CD4FD /* GetirShoppinApp_HomeScreenUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetirShoppinApp_HomeScreenUIApp.swift; sourceTree = "<group>"; };
+		BED31C942E799B3C008CD4FD /* HomeScreens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreens.swift; sourceTree = "<group>"; };
+		BED31C992E799B3C008CD4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BED31C9B2E799B3C008CD4FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC4F9992E7700230016982A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC4F9932E7700230016982A = {
+			isa = PBXGroup;
+			children = (
+				BEC4F99E2E7700230016982A /* GetirShoppinApp-HomeScreenUI */,
+				BEC4F99D2E7700230016982A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC4F99D2E7700230016982A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC4F99C2E7700230016982A /* GetirShoppinApp-HomeScreenUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC4F99E2E7700230016982A /* GetirShoppinApp-HomeScreenUI */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C982E799B3C008CD4FD /* assests */,
+				BED31C5A2E799B3C008CD4FD /* components */,
+				BED31C552E799B3C008CD4FD /* data */,
+				BED31C6E2E799B3C008CD4FD /* GetirShoppinApp_HomeScreenUIApp.swift */,
+				BED31C9A2E799B3C008CD4FD /* Preview Content */,
+				BED31C932E799B3C008CD4FD /* screens */,
+				BED31C6B2E799B3C008CD4FD /* theme */,
+			);
+			path = "GetirShoppinApp-HomeScreenUI";
+			sourceTree = "<group>";
+		};
+		BED31C552E799B3C008CD4FD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C562E799B3C008CD4FD /* entity */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		BED31C562E799B3C008CD4FD /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C572E799B3C008CD4FD /* UnifiedCard.swift */,
+				BED31C582E799B3C008CD4FD /* CategoryChip.swift */,
+				BED31C592E799B3C008CD4FD /* ProductUI.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		BED31C5A2E799B3C008CD4FD /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C5D2E799B3C008CD4FD /* SearchBarView.swift */,
+				BED31C5E2E799B3C008CD4FD /* RootView.swift */,
+				BED31C632E799B3C008CD4FD /* HeroBannerSection.swift */,
+				BED31C652E799B3C008CD4FD /* UnifiedCardView.swift */,
+				BED31C662E799B3C008CD4FD /* CardSection.swift */,
+				BED31C682E799B3C008CD4FD /* HeaderSection.swift */,
+				BED31C6A2E799B3C008CD4FD /* SectionHeader.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		BED31C6B2E799B3C008CD4FD /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C6C2E799B3C008CD4FD /* AppColors.swift */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		BED31C932E799B3C008CD4FD /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C942E799B3C008CD4FD /* HomeScreens.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		BED31C982E799B3C008CD4FD /* assests */ = {
+			isa = PBXGroup;
+			children = (
+				BE46937D2E844F51008DF4DE /* Assets.xcassets */,
+				BED31C992E799B3C008CD4FD /* Assets.xcassets */,
+			);
+			path = assests;
+			sourceTree = "<group>";
+		};
+		BED31C9A2E799B3C008CD4FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BED31C9B2E799B3C008CD4FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC4F99B2E7700230016982A /* GetirShoppinApp-HomeScreenUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC4F9AA2E7700260016982A /* Build configuration list for PBXNativeTarget "GetirShoppinApp-HomeScreenUI" */;
+			buildPhases = (
+				BEC4F9982E7700230016982A /* Sources */,
+				BEC4F9992E7700230016982A /* Frameworks */,
+				BEC4F99A2E7700230016982A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GetirShoppinApp-HomeScreenUI";
+			productName = "GetirShoppinApp-HomeScreenUI";
+			productReference = BEC4F99C2E7700230016982A /* GetirShoppinApp-HomeScreenUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC4F9942E7700230016982A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BEC4F99B2E7700230016982A = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = BEC4F9972E7700230016982A /* Build configuration list for PBXProject "GetirShoppinApp-HomeScreenUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC4F9932E7700230016982A;
+			productRefGroup = BEC4F99D2E7700230016982A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC4F99B2E7700230016982A /* GetirShoppinApp-HomeScreenUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC4F99A2E7700230016982A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED31CD12E799B3C008CD4FD /* Preview Assets.xcassets in Resources */,
+				BE46937E2E844F51008DF4DE /* Assets.xcassets in Resources */,
+				BED31CD02E799B3C008CD4FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC4F9982E7700230016982A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED31CAC2E799B3C008CD4FD /* HeaderSection.swift in Sources */,
+				BED31CCD2E799B3C008CD4FD /* HomeScreens.swift in Sources */,
+				BED31CAA2E799B3C008CD4FD /* CardSection.swift in Sources */,
+				BED31C9C2E799B3C008CD4FD /* UnifiedCard.swift in Sources */,
+				BED31CA12E799B3C008CD4FD /* SearchBarView.swift in Sources */,
+				BED31CB12E799B3C008CD4FD /* GetirShoppinApp_HomeScreenUIApp.swift in Sources */,
+				BED31CD22E79A838008CD4FD /* AppColors.swift in Sources */,
+				BED31CA72E799B3C008CD4FD /* HeroBannerSection.swift in Sources */,
+				BED31CA92E799B3C008CD4FD /* UnifiedCardView.swift in Sources */,
+				BED31CA22E799B3C008CD4FD /* RootView.swift in Sources */,
+				BED31CAE2E799B3C008CD4FD /* SectionHeader.swift in Sources */,
+				BED31C9E2E799B3C008CD4FD /* ProductUI.swift in Sources */,
+				BED31C9D2E799B3C008CD4FD /* CategoryChip.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEC4F9A82E7700260016982A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC4F9A92E7700260016982A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC4F9AB2E7700260016982A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetirShoppinApp-HomeScreenUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GNY8CM6B44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aysenurkendirci.GetirShoppinApp-HomeScreenUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC4F9AC2E7700260016982A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GetirShoppinApp-HomeScreenUI/Preview Content\"";
+				DEVELOPMENT_TEAM = GNY8CM6B44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aysenurkendirci.GetirShoppinApp-HomeScreenUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC4F9972E7700230016982A /* Build configuration list for PBXProject "GetirShoppinApp-HomeScreenUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC4F9A82E7700260016982A /* Debug */,
+				BEC4F9A92E7700260016982A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC4F9AA2E7700260016982A /* Build configuration list for PBXNativeTarget "GetirShoppinApp-HomeScreenUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC4F9AB2E7700260016982A /* Debug */,
+				BEC4F9AC2E7700260016982A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC4F9942E7700230016982A /* Project object */;
+}

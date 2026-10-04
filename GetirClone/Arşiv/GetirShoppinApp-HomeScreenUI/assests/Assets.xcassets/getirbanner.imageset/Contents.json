@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "62989accc76ab34d726065f7_banner_tr_1654168408325.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
